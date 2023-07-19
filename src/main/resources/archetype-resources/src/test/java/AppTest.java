@@ -1,13 +1,12 @@
 package ${groupId};
 
-import ${groupId}.App;
+import org.junit.jupiter.api.Test;
 
 
 public class AppTest {
 
     @Test
     void testMain(){
-        App app = new App();
-        app.main();
+        App.main(new String[]{"hello", "world"});
     }
 }
