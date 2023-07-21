@@ -2,7 +2,8 @@
 *.class
 
 target/*
-
+*.project
+*.settings*
 # Log file
 *.log
 
